@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main () {
+    int arr[5] = {1,2,3,4,5};
+    int i;
+    
+    if(binary_search(arr , arr+5 , 9)){
+    cout<<"Number is present "<<endl;
+    }else {
+        cout<<"N0. is not present ";
+    }
+}
